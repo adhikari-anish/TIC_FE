@@ -2,7 +2,6 @@ import api from 'axios';
 
  
 api.defaults.baseURL = "http://localhost";
-// api.defaults.baseURL = "http://onlineshoppingsystem-env.eba-xap7eyhp.ap-southeast-2.elasticbeanstalk.com/";
 
 const setHeader = () => {
     const token = localStorage.getItem('token');

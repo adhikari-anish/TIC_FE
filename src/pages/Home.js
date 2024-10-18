@@ -47,7 +47,7 @@ const Home = () => {
 
   return (
     <div class="container-fluid p-0">
-      <img src="bg.jpg" class="card-img" alt="..."></img>
+      <img src="bg.jpg" class="card-img" alt="..." style={{ maxHeight: "450px" }}></img>
       <div
         className="container-flud mb-4"
         style={{

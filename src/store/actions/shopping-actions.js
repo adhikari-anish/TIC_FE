@@ -144,8 +144,7 @@ export const onGetProducts = (payload) => async(dispatch) => {
   export const onPlaceOrder = ({txnId }) => async(dispatch) => {
 
     try {
-
-        const response = await PostData('/shopping/order/', {
+        const response = await PostData('/booking/order/', {
           txnId
         });
 
